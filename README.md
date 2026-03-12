@@ -8,10 +8,10 @@ This project focuses on algorithm design, data structures, complexity optimizati
 ## Description
 
 Push_swap sorts numbers using two stacks (A and B) and a predefined set of instructions.  
-The program must output the smallest possible sequence of operations that sorts the input in ascending order. :contentReference[oaicite:0]{index=0}  
+The program must output the smallest possible sequence of operations that sorts the input in ascending order. 
 
 All numbers start in stack A, and stack B is empty.  
-The program manipulates the stacks using only allowed operations. :contentReference[oaicite:1]{index=1}  
+The program manipulates the stacks using only allowed operations.
 
 ## Allowed Operations
 
@@ -27,7 +27,7 @@ The program manipulates the stacks using only allowed operations. :contentRefere
 - rrb — reverse rotate B  
 - rrr — rra + rrb  
 
-If an operation is impossible, it must not crash the program. :contentReference[oaicite:2]{index=2}  
+If an operation is impossible, it must not crash the program. 
 
 ## Features
 
@@ -70,7 +70,7 @@ Checker program:
 ./checker numbers...
 ```
 
-Reads instructions from stdin and checks if the stack is sorted. :contentReference[oaicite:3]{index=3}  
+Reads instructions from stdin and checks if the stack is sorted.  
 
 Example
 
